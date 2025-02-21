@@ -73,7 +73,7 @@ def exe3(q, a, b, c, d, e):
 
     @always_comb
     def comb():
-        q.next = 
+        q.next = ((((a or b) and c) and d) and e)
 
     return instances()
 
